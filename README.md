@@ -1,7 +1,7 @@
 # Overview
-As a penetration tester, I evaluated the application’s file handling endpoints to identify high-impact vulnerabilities quickly using targeted scanning techniques. During testing, I discovered a Local File Inclusion (LFI) vulnerability that allowed reading arbitrary files on the server, including /etc/passwd. By focusing scans on suspicious endpoints with user-controllable parameters, I was able to confirm and exploit the issue efficiently. This project demonstrates how strategic, targeted scanning can rapidly uncover critical vulnerabilities.
+I evaluated the application’s file handling endpoints to identify high-impact vulnerabilities quickly using targeted scanning techniques. During testing, I discovered a Local File Inclusion (LFI) vulnerability that allowed reading arbitrary files on the server, including /etc/passwd. By focusing scans on suspicious endpoints with user-controllable parameters, I was able to confirm and exploit the issue efficiently. This project demonstrates how strategic, targeted scanning can rapidly uncover critical vulnerabilities.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Identified potentially vulnerable endpoints for file access (e.g., download, view, or export functionality).
 
